@@ -8,6 +8,7 @@
     height: 80vw;
     position: absolute;
     /*margin-top: 2vw;*/
+    overflow-x: hidden;
 }
 
 .HomeScreen {
