@@ -1,0 +1,91 @@
+.whole {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #5151de;
+}
+
+.inputBox {
+    width: 20vw;
+    height: 25vw;
+    display: flex;
+    position: absolute;
+    /*background-color: #151596;*/
+    margin-left: 40vw;
+    margin-top: 7.5vw;
+}
+
+.svg {
+    width: 17.5vw;
+    height: 25vw;
+    position: absolute;
+    background-color: #1eff00;
+}
+
+.rect1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #070742;
+    border-radius: 10vw;
+    stroke-width: 0.5vw;
+    stroke-dashoffset: -100;
+    stroke-dasharray: 0;
+    /*animation: blink 5s ;*/
+    display: none;
+}
+
+.eMail {
+    width: 17.5vw;
+    height: 5vw;
+    position: absolute;
+    margin-top: 1vw;
+}
+
+.eMailText {
+    font-size: 1vw;
+    margin-left: 10%;
+    color: #e2e2e2;
+}
+
+.eMailInput {
+    width: 15vw;
+    padding-top: 0.5vw;
+    margin-left: 10%;
+    margin-top: 1vw;
+    list-style: none;
+    border: solid 0.2vw #e2e2e2;
+    background-color: #292949;
+    text-align: center;
+    color: white;
+}
+
+.message {
+    position: absolute;
+    width: 17.5vw;
+    height: 5vw;
+    top: 7vw;
+    margin-left: 2vw;
+}
+
+.messageText {
+    font-size: 1vw;
+    margin-bottom: 0.2vw;
+    color: #e2e2e2;
+}
+
+.messageInput {
+    width: 15vw;
+    height: 8vw;
+    background-color: #292949;
+    border: solid 0.2vw #e2e2e2;
+    color: white;
+}
+
+.sendButton {
+    position: absolute;
+    width: 15.5vw;
+    height: 3vw;
+    margin-top: 19vw;
+    margin-left: 2vw;
+}

@@ -1,0 +1,157 @@
+.background-home {
+    display: flex;
+    background-image: url("../images/photo-1542831371-29b0f74f9713.png");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vw;
+    position: absolute;
+    /*margin-top: 2vw;*/
+}
+
+.HomeScreen {
+    position: absolute;
+    width: 60%;
+    height: 13vw;
+    display: flex;
+    align-items: center;
+    border-radius: 80vw;
+    /*border: solid #070742;*/
+    margin-left: 20%;
+    margin-top: 1vw;
+}
+
+.HomeText {
+    display: flex;
+    font-size: 6vw;
+    color: #efefef;
+    margin-left: 12vw;
+    position: absolute;
+}
+
+.svg1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 6.5vw;
+    fill: none;
+}
+
+.rect1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #070742;
+    border-radius: 10vw;
+    stroke-width: 0.5vw;
+    stroke-dashoffset: -100;
+    stroke-dasharray: 0;
+    /*animation: blink 5s ;*/
+    display: none;
+}
+
+.svg2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 6.5vw;
+    fill: none;
+}
+
+.rect2 {
+    position: absolute;
+    margin-left: 10vw;
+    width: 100%;
+    height: 100%;
+    stroke: #070742;
+    border-radius: 12vw;
+    stroke-width: 0.5vw;
+    stroke-dashoffset: -100;
+    stroke-dasharray: 0;
+    animation: blink 5s;
+}
+
+@keyframes blink {
+    0% {
+        stroke-dasharray: 77.5%;
+    }
+    99% {
+        stroke-dashoffset: -1000;
+        stroke-dasharray: 10;
+    }
+    100% {
+
+        stroke-dasharray: 0;
+    }
+}
+
+@keyframes blink2 {
+    0% {
+        stroke-dasharray: 0;
+    }
+    1% {
+        stroke-dashoffset: -1000;
+        stroke-dasharray: 10;
+    }
+    100% {
+
+        stroke-dasharray: 77.5%;;
+    }
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    height: 50vw;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: space-between;
+    position: absolute;
+    margin-top: 10vw;
+}
+
+.aboutText1 {
+    display: flex;
+    text-align: center;
+    font-size: 5vw;
+    color: #ece6e6;
+    width: 100%;
+    height: 5vw;
+    margin-left: 10vw;
+    margin-top: -24vw;
+    position: absolute;
+}
+
+.aboutText2 {
+    display: flex;
+    font-size: 4vw;
+    color: #fdfdfd;
+    margin-left: 2vw;
+    word-spacing: 0.2vw;
+    line-height: 5vw;
+    padding: 2vw;
+    width: 95%;
+    height: 35vw;
+    position: absolute;
+    margin-top: 5vw;
+}
+
+.aboutText3 {
+    display: flex;
+    font-size: 4vw;
+    color: #fdfdfd;
+    margin-left: 4vw;
+    margin-top: 34vw;
+    position: absolute;
+}
+
+.aboutBorder {
+    display: flex;
+    width: 83%;
+    height: 40vw;
+    margin-left: 6vw;
+    margin-top: 3vw;
+    border-radius: 2vw;
+    position: absolute;
+}

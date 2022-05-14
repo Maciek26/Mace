@@ -1,0 +1,278 @@
+
+
+
+
+
+.Tittle {
+	display: flex;
+	font-size: 4vw;
+	color: #ffffff;
+	background-image: url("../images/28922-teaser1.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	height: 20vw;
+	width: 100%;
+	align-items: center;
+}
+
+.TittleText {
+	display: flex;
+	margin-left: 12vw;
+	text-align: center;
+}
+
+.sep1 {
+	display: flex;
+	font-size: 4vw;
+	color: #ffffff;
+	height: 10vw;
+	width: 100%;
+	align-items: center;
+	background-color: #212121;
+	opacity: 1;
+}
+
+.sep1Text {
+	display: flex;
+	margin-left: 42vw;
+}
+
+.container1 {
+	display: flex;
+	padding: 0;
+	justify-content: space-around;
+	width: 100%;
+	height: 61vw;
+    background-image: url("../images/1009968.jpg");
+	background-size: 110vw;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-x: -3vw;
+	flex-direction: row;
+	list-style: none;
+	flex-wrap: wrap;
+}
+
+.attacker {
+	order: 2;
+	flex-grow: 0;
+	flex-shrink: 1;
+	width: 100%;
+	height: 2vw;
+	text-align: center;
+	color: #000000;
+	font-size: 7vw;
+	margin-top: 4vw;
+}
+
+.randomizebuttondiv1 {
+	order: 3;
+	width: 100%;
+	text-align: center;
+	margin-top: 2vw;
+}
+
+.randomizebutton {
+	margin-top: 2vw;
+	font-size: 2vw;
+	width: 10vw;
+	height: 10vw;
+	background-image: url("../images/Dice.png");
+	background-repeat: no-repeat;
+	background-size: 10vw;
+	border: none;
+	padding: 0;
+}
+
+.CharacterAttacker {
+	width: 20vw;
+	height: 20vw;
+	order: 4;
+	flex-shrink: 1;
+	flex-grow: 0;
+	color: black;
+	text-align: center;
+	align-content: center;
+	border-style: solid;
+	border-color: black;
+	background-size: 20vw;
+	background-color: rgba(255, 255, 255, 0.55);
+	opacity: 100%;
+	font-size: 3.5vw;
+	margin-top: 3vw;
+}
+
+.buttonCharAttacker {
+	margin-top: 4vw;
+}
+
+.primaryAttack {
+	width: 20vw;
+	height: 20vw;
+	order: 5;
+	flex-shrink: 1;
+	flex-grow: 0;
+	color: black;
+	text-align: center;
+	align-content: center;
+	border-style: solid;
+	border-color: black;
+	background-size: 20vw;
+	background-color: rgba(255, 255, 255, 0.55);
+	opacity: 100%;
+	font-size: 3.5vw;
+	margin-top: 3vw;
+}
+
+.buttonPrimaryAttack {
+	margin-top: 1vw;
+}
+
+.secondaryAttack {
+	width: 20vw;
+	height: 20vw;
+	order: 6;
+	flex-shrink: 1;
+	flex-grow: 0;
+	color: black;
+	text-align: center;
+	align-content: center;
+	font-size: 3.5vw;
+	background-color: rgba(255, 255, 255, 0.55);
+	background-size: 20vw;
+	margin-top: 3vw;
+}
+
+.buttonSecondaryAttack {
+	margin-top: 0.5vw;
+}
+
+.randomizetext {
+	margin-bottom: 1vw;
+}
+
+.randomizetext2 {
+	margin-bottom: 1vw;
+}
+
+.charAttackertext {
+	margin-top: 1vw;
+}
+
+.sep2 {
+	display: flex;
+	font-size: 4vw;
+	color: #ffffff;
+	height: 10vw;
+	width: 100%;
+	align-items: center;
+	background-color: #212121;
+	opacity: 1;
+}
+
+.sep2Text {
+	display: flex;
+	margin-left: 42vw;
+}
+
+.container2 {
+	display: flex;
+	padding: 0;
+	justify-content: space-around;
+	width: 100%;
+	height: 61vw;
+	background-image: url("../images/Rainbow-Six-Siege-Defenders.jpg");
+	background-size: 130vw;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	flex-direction: row;
+	list-style: none;
+	flex-wrap: wrap;
+}
+
+.randomizebuttondiv2 {
+	order: 2;
+	width: 100%;
+	text-align: center;
+	margin-top: 7vw;
+}
+
+.randomizeButton2 {
+	border: none;
+	padding: 0;
+	background-image: url("../images/Dice.png");
+	background-repeat: no-repeat;
+	background-size: 10vw;
+	height: 10vw;
+}
+
+.characterDefense {
+	width: 20vw;
+	height: 20vw;
+	order: 3;
+	flex-shrink: 1;
+	flex-grow: 0;
+	color: black;
+	text-align: center;
+	align-content: center;
+	border-style: solid;
+	border-color: black;
+	background-size: 20vw;
+	background-color: rgba(255, 255, 255, 0.55);
+	opacity: 100%;
+	font-size: 3.5vw;
+	margin-top: 2vw;
+}
+
+.primaryDefense {
+	width: 20vw;
+	height: 20vw;
+	order: 4;
+	flex-shrink: 1;
+	flex-grow: 0;
+	color: black;
+	text-align: center;
+	align-content: center;
+	font-size: 3.5vw;
+	background-color: rgba(255, 255, 255, 0.55);
+	background-size: 20vw;
+	margin-top: 2vw;
+}
+
+.secondaryDefense {
+	width: 20vw;
+	height: 20vw;
+	order: 5;
+	flex-shrink: 1;
+	flex-grow: 0;
+	color: black;
+	text-align: center;
+	align-content: center;
+	font-size: 3.5vw;
+	background-color: rgba(255, 255, 255, 0.55);
+	background-size: 20vw;
+	margin-top: 2vw;
+}
+
+.charDefenseText {
+	margin-top: 1vw;
+}
+
+.buttonCharDefense {
+}
+
+.randomizeText4 {
+	margin-bottom: 3vw;
+}
+
+.primaryDefenseText {
+	margin-bottom: 3vw;
+}
+
+.buttonImage2 {
+	width: 10vw;
+	height: 10vw;
+	background: none;
+	border: none;
+	padding: 0;
+}

@@ -1,0 +1,242 @@
+.Menu {
+    height: 100vw;
+}
+
+.gameDiv {
+    background-image: url("../images/super-mario-super-mario-3d-world-black-white-hd-wallpaper-preview.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 100vw;
+    width: 100vw;
+}
+
+.game {
+    width: 70vw;
+    height: 35vw;
+    border: 1vw solid black;
+    margin-left: 14vw;
+    /*margin-top: 5vw;*/
+    background-image: url("../images/d8cfdbfb66fe19b6a341625ca39e0892.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+.dificulty {
+    width: 100%;
+    height: 5vw;
+    background-color: #5151de;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5vw;
+}
+
+.difi1 {
+    display: flex;
+    list-style: none;
+    color: #e2e2e2;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.difi1 a:hover {
+    color: #5151de;
+    transition: 0.2s;
+}
+
+.gameMenu {
+    width: 15vw;
+    height: 10vw;
+    background-color: #5151de;
+    margin-left: 28vw;
+    margin-top: 10vw;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+}
+
+.menuText {
+    font-size: 2vw;
+    color: #F2F2F2;
+    display: flex;
+    padding-left: 4vw;
+    padding-top: 2vw;
+}
+
+.menuButton {
+    width: 4vw;
+    height: 3vw;
+    border-style: wave;
+    margin-left: 5.7vw;
+    margin-top: 2vw;
+    align-items: center;
+    background-color: #070742;
+    color: #F2F2F2;
+    font-size: 0.8vw;
+
+}
+
+.pipe {
+    width: 3vw;
+    height: 25vw;
+    background-color: green;
+    display: flex;
+    left: 67vw;
+    position: absolute;
+    /*animation: block 8.8s infinite linear;*/
+
+}
+
+.character {
+    width: 6.5vw;
+    height: 7vw;
+    background-color: #070742;
+    background-image: url("../images/b69040ba12c1b3a9d9d998e3e67154e9.gif");
+    background-size: 17vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    margin-top: 28vw;
+    margin-left: 10vw;
+    display: flex;
+}
+
+.animateJump {
+    animation: jump 0.5s linear;
+}
+
+.animateLeft {
+    left: 10vw;
+    transition: 1s;
+}
+
+.blockl {
+    width: 6vw;
+    height: 5vw;
+    background-color: blue;
+    background-image: url("../images/c9e981356fa8144.png");
+    background-size: 10vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 37.5vw;
+    left: 70vw;
+    animation-timing-function: unset;
+    opacity: 1;
+    display: none;
+}
+
+.block2 {
+    width: 6vw;
+    height: 5vw;
+    background-color: green;
+    background-image: url("../images/c9e981356fa8144.png");
+    background-size: 10vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -7.5vw;
+    left: 70vw;
+    animation: block 2.5s infinite linear;
+    animation-delay: 5.5s;
+    opacity: 0;
+}
+
+.bomb {
+    width: 4vw;
+    height: 4vw;
+    top: 38vw;
+    left: 80vw;
+    position: absolute;
+    display: none;
+    opacity: 1;
+}
+
+.timer {
+    position: absolute;
+    margin-left: 30.5vw;
+    font-size: 3vw;
+    display: flex;
+    margin-top: 0;
+}
+
+.highscore {
+    position: absolute;
+    margin-top: 0.5vw;
+    display: flex;
+}
+
+@keyframes block{
+    0%{
+        /*left: 65vw;*/
+        opacity: 0;
+    }
+    2%{
+        left: 80vw;
+        opacity: 1;
+    }
+    98%{
+        left: 15vw;
+        opacity: 1;
+    }
+    100%{
+        left: 20vw;
+        opacity: 0;
+    }
+}
+
+@keyframes jump {
+    0%{top: 9vw}
+    10%{top: 4vw}
+    30%{top: -1vw}
+    50%{top: -5vw}
+    70%{top: -1vw}
+    85%{top: 4vw}
+    100%{top: 9vw}
+}
+
+@keyframes left {
+    0%{left: 1vw}
+    100%{left: -3.5vw}
+}
+
+.optionsMenu {
+    width: 11vw;
+    height: 35vw;
+    background-color: #860000;
+    display: flex;
+    /*align-items: center;*/
+    margin-left: 72vw;
+    margin-top: 0;
+    position: absolute;
+    flex-direction: column;
+    font-size: 1vw;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1vw;
+}
+
+.collisionBox {
+    order: 1;
+    display: flex;
+}
+
+.blockCollison {
+    order: 2;
+    display: flex;
+}
+
+.blockSpeed {
+    order: 3;
+    display: flex;
+}
+
+.charCollision {
+    order: 4;
+    display: flex;
+}
+
+.blockTele {
+    order: 5;
+    display: flex;
+}

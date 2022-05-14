@@ -1,0 +1,73 @@
+.coinBase {
+    width: 99.25vw;
+    height: 60vw;
+    background-color: #5151de;
+    display: flex;
+}
+
+.flipGif {
+    width: 70vw;
+    height: 40vw;
+    background-image: url("../images/coin-flip-25.gif");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    order: 3;
+    margin-left: 14vw;
+    margin-top: 8vw;
+    position: relative;
+    display: flex;
+}
+
+.coinText {
+    width: 50vw;
+    height: 7vw;
+    font-size: 3vw;
+    color: #e2e2e2;
+    display: flex;
+    margin-top: 5vw;
+    margin-left: 25vw;
+    text-align: center;
+    order: 1;
+    position: absolute;
+}
+
+.resultStar {
+    width: 70vw;
+    height: 40vw;
+    background-image: url("../images/Star_Coin.webp");
+    background-size: 20vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    display: none;
+    margin-left: 14vw;
+    margin-top: 8vw;
+}
+
+.resultM {
+    width: 70vw;
+    height: 40vw;
+    background-image: url("../images/gold-coin-in-cartoon-style-vector-14892356.png");
+    background-size: 20vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    order: 2;
+    margin-left: 14vw;
+    margin-top: 8vw;
+    position: relative;
+    display: none;
+}
+
+@keyframes flip {
+    0% {
+        transform: rotate();
+    }
+
+    100% {
+        transform: rotateX(1440deg);
+    }
+}
+

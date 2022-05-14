@@ -1,0 +1,142 @@
+.background {
+    background-image: unset;
+    background-color: #5151de;
+    height: 100vw;
+    width: 100vw;
+}
+
+.topMargin {
+    width: 100%;
+    height: 5vw;
+    background-color: #5151de;
+}
+.gameWindow {
+    width: 60vw;
+    height: 40vw;
+    border: 1vw solid black;
+    margin-left: 20vw;
+    background-color: #070742;
+}
+
+.startButton {
+    width: 7vw;
+    height: 4vw;
+    border: none;
+    left: 44vw;
+    top: 30vw;
+    position: absolute;
+    display: flex;
+}
+
+.bird {
+    width: 3.2vw;
+    height: 2.7vw;
+    background-color: #1eff00;
+    margin-left: 15vw;
+    margin-top: 22vw;
+    position: absolute;
+    display: flex;
+}
+
+.pipe1Up {
+    display: none;
+    width: 2vw;
+    background-color: #134e0a;
+    position: absolute;
+    animation: none;
+    opacity: 0;
+}
+
+.pipe1Down {
+    display: none;
+    width: 2vw;
+    background-color: #134e0a;
+    position: absolute;
+    animation: none;
+    opacity: 0;
+}
+
+.pipe2Up {
+    display: none;
+    width: 2vw;
+    background-color: #134e0a;
+    position: absolute;
+    animation: none;
+    opacity: 0;
+}
+
+.pipe2Down {
+    display: none;
+    width: 2vw;
+    background-color: #134e0a;
+    position: absolute;
+    animation: none;
+    opacity: 0;
+}
+
+.pipe3Up {
+    display: none;
+    width: 2vw;
+    background-color: #134e0a;
+    position: absolute;
+    animation: none;
+    opacity: 0;
+}
+
+.pipe3Down {
+    display: none;
+    width: 2vw;
+    background-color: #134e0a;
+    position: absolute;
+    animation: none;
+    opacity: 0;
+}
+
+.pipe4Up {
+    display: none;
+    width: 2vw;
+    background-color: #134e0a;
+    position: absolute;
+    animation: none;
+    opacity: 0;
+}
+
+.pipe4Down {
+    display: none;
+    width: 2vw;
+    background-color: #134e0a;
+    position: absolute;
+    animation: none;
+    opacity: 0;
+}
+
+.pipe5Up {
+    display: none;
+    width: 2vw;
+    background-color: #134e0a;
+    position: absolute;
+    animation: none;
+    opacity: 0;
+}
+
+.pipe5Down {
+    display: none;
+    width: 2vw;
+    background-color: #134e0a;
+    position: absolute;
+    animation: none;
+    opacity: 0;
+}
+
+@keyframes pipe {
+    0%{
+        left: 80vw;
+    }
+    99.9%{opacity: 1}
+    100%{
+        left: 20vw;
+        opacity: 0;
+    }
+
+
+}

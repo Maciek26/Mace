@@ -1,0 +1,57 @@
+[
+  {
+    "charName": "Sledge",
+    "primaryWeapons":[
+      { "weaponName": "M590A1" },
+      { "weaponName": "L85A2" },
+      { "weaponName": "FlameTthrower"}
+    ],
+    "secondaryWeapons":[
+      { "weaponName": "gr342" },
+      { "weaponName": "gh325" },
+      { "weaponName": "hbhf234"}
+    ]
+  },
+  {
+    "charName": "<img src='images/html.png'>",
+    "primaryWeapons":[
+      { "weaponName": "M4" },
+      { "weaponName": "B234" },
+      { "weaponName": "a324"}
+    ],
+    "secondaryWeapons":[
+      { "weaponName": "jukh342" },
+      { "weaponName": "loh325" },
+      { "weaponName": "zzuh234"}
+    ]
+  },
+  {
+    "charName": "Hans",
+    "primaryWeapons":[
+      { "weaponName": "k342" },
+      { "weaponName": "l325" },
+      { "weaponName": "h234"}
+    ],
+    "secondaryWeapons":[
+      { "weaponName": "üh342" },
+      { "weaponName": "lsfd325" },
+      { "weaponName": "sefh234"}
+    ]
+  },
+  {
+    "charName": "Peter",
+    "primaryWeapons":[
+      { "weaponName": "j85" },
+      { "weaponName": "j358" },
+      { "weaponName": "f47"}
+    ],
+    "secondaryWeapons":[
+      { "weaponName": "gf342" },
+      { "weaponName": "fhe325" },
+      { "weaponName": "efhe234"}
+    ]
+  }
+]
+
+
+

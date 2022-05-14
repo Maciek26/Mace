@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mario Run</title>
+    <link href="../burgerMenu.css" rel="stylesheet">
+  <link href="marioRun.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="gameDiv">
+
+<script src="../burgerMenu.js"></script>
+
+  <div class="game" onclick="jump()">
+    <div class="gameMenu2">
+      <div class="gameMenu" id="gameMenu">
+        <a class="menuText" id="menuText">You lost</a>
+        <button class="menuButton" id="menuButton" onclick="restart()">Try again</button>
+      </div>
+    </div>
+    <div class="pipe" id="pipe"></div>
+    <div class="character" id="character"></div>
+    <div class="block" id="block"></div>
+    <div class="block2" id="block2"></div>
+    <div class="bomb" id="bomb"></div>
+    <div class="timer" id="timer">
+      <label class="minutes" id="minutes">00</label>:<label class="seconds" id="seconds">00</label>
+    </div>
+    <div>
+      <a class="highscore" id="highscore">Highscore: </a>
+    </div>
+    <div class="optionsMenu" id="optionsMenu">
+      <div class="collisionBox">
+        No Collision:<input type="checkbox" id="collisionBox" class="collisionBox" onclick="collisionCheck()">
+      </div>
+      <div class="blockCollison">
+        Rocket 1: <input type="checkbox" id="blockBox" class="blockCollision" onclick="block1Collision()">
+      </div>
+      <div class="blockSpeed">
+        Random Block Speed: <input type="checkbox" id="blockSpeed" class="blockSpeed" onclick="randomBlockSpeed()">
+      </div>
+      <div class="charCollision">
+        No Character Collision: <input type="checkbox" id="charCollision" class="charCollision" onclick="characterCollision()">
+      </div>
+      <div class="blockTele">
+        No bomb: <input type="checkbox" id="bombTele" class="blockTele" onclick="b1Tele()">
+      </div>
+    </div>
+  </div>
+  <script src="marioRun.js"></script>
+  <script src="marioRunMenu.js"></script>
+</div>
+</body>
+</html>
