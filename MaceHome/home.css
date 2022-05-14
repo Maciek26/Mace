@@ -1,3 +1,13 @@
+.whole {
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 500px) {
+     .whole {
+         width: 100vw;
+     }
+}
+
 .background-home {
     display: flex;
     background-image: url("../images/photo-1542831371-29b0f74f9713.png");
