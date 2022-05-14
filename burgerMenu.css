@@ -126,6 +126,7 @@ nav {
     }
 
     .nav-Links {
+        font-size: 2vw;
         position: absolute;
         right: 0px;
         height: 67vw;
@@ -141,12 +142,18 @@ nav {
     .nav-Links li {
         opacity: 0;
     }
+    .nav-Links a {
+        font-size: 4vw;
+    }
     .burgerMenu {
         display: block;
         cursor: pointer;
     }
     .dropdown a:hover{
         transition: 0.3s;
+    }
+    .nav-active {
+        width: 50vw;
     }
 }
 
@@ -184,27 +191,27 @@ nav {
 .dropdown {
     display: none;
     position: absolute;
+
 }
 
 .dropdown a {
     color: #e2e2e2;
-    padding: 1vw 1.5vw;
+    padding: 2vw 1.5vw;
     text-decoration: none;
     display: block;
     margin-top: 1vw;
     transition: 0.5s;
-
 }
 
 .dropdown a:hover {
     background-color: #070742;
-    transition: 0.3s;
+    transition: 0.9s;
 }
 
 .dropdown1:hover .dropdown {
     display: block;
-    background-color: #070742;
-    transition: 0.3s;
+    background-color: #5151de;
+    transition: 2.3s;
 }
 
 .svg {
