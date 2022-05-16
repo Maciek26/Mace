@@ -155,6 +155,11 @@ nav {
     .nav-active {
         width: 50vw;
     }
+    .dropdown1:hover .dropdown {
+        display: block;
+        background-color: #5151de;
+        transition: 2.3s;
+    }
 }
 
 .nav-active {
@@ -210,7 +215,7 @@ nav {
 
 .dropdown1:hover .dropdown {
     display: block;
-    background-color: #5151de;
+    background-color: #070742;
     transition: 2.3s;
 }
 
