@@ -204,12 +204,12 @@ nav {
     z-index: 1;
 }
 
-.dropdownbutton a:hover {
+.dropdown a:hover {
     background-color: #070742;
     transition: 0.9s;
 }
 
-.dropdownbutton1:hover .dropdown {
+.dropdown1:hover .dropdown {
     display: block;
     opacity: 1;
     background-color: #070742;
