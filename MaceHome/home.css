@@ -198,7 +198,7 @@
     border-radius: 12vw;
     stroke-width: 0.15vw;
     stroke-dashoffset: 1vw;
-    stroke-dasharray: 20%;
+    stroke-dasharray: 10%;
     animation: stroke2 10s infinite;
     margin-left: 4vw;
 }
@@ -210,50 +210,52 @@
     stroke: #e2e2e2;
     border-radius: 12vw;
     stroke-width: 0.15vw;
-    stroke-dashoffset: 1vw;
-    stroke-dasharray: 20%;
+    stroke-dashoffset: 5vw;
+    stroke-dasharray: 210%;
     animation: stroke3 10s infinite;
     margin-left: 4vw;
 }
 
 .svg3 {
-    margin-left: 12vw;
+    margin-left: 10vw;
 }
 
 @keyframes stroke2 {
     0% {
-        stroke-dashoffset: 1vw;
+        stroke-dashoffset: -20vw;
         stroke: rgba(226, 226, 226, 0);
     }
     50% {
-        stroke-dashoffset: 10vw;
-        stroke-dasharray: 108%;
+        stroke-dashoffset: 0.5vw;
+        stroke-dasharray: 118%;
         stroke: #e2e2e2;
     }
     70% {
         stroke: #e2e2e2;
     }
     100% {
-        stroke-dashoffset: 1vw;
+        stroke-dashoffset: -20vw;
         stroke: rgba(226, 226, 226, 0);
     }
 }
 
 @keyframes stroke3 {
     0% {
-        stroke-dashoffset: -8vw;
+        stroke-dashoffset: -20vw;
         stroke: rgba(226, 226, 226, 0);
+        stroke-dasharray: 10%;
     }
     50% {
-        stroke-dashoffset: 10vw;
-        stroke-dasharray: 178%;
+        stroke-dashoffset: 0.4vw;
+        stroke-dasharray: 210%;
         stroke: #e2e2e2;
     }
     70% {
         stroke: #e2e2e2;
     }
     100% {
-        stroke-dashoffset: -8vw;
+        stroke-dashoffset: -20vw;
+        stroke-dasharray: 10%;
         stroke: rgba(226, 226, 226, 0);
     }
 }
