@@ -45,7 +45,7 @@ function collisionCheck() {
         block.style.display = "flex";
         character.style.display = "flex";
         pipe.style.display = "flex";
-        block2.style.animation = "block 6.5s infinite linear";
+        block2.style.animation = "block 10.5s infinite linear";
         block2.style.display = "flex";
     }
 }
