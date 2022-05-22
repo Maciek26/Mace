@@ -20,7 +20,7 @@ document.write(`
                 </div>
             </div>
             <div class="dropdown1">
-                <a class="dropdownButton">Games</a>
+                <a class="dropdownButton1">Games</a>
                 <div class="dropdown">
                     <a href="../MarioRun/marioRun.html">Mario Run</a>
                     <a href="../FlappyBirds/flappyBirds.html">Flappy Birds</a>

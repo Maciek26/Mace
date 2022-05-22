@@ -41,7 +41,8 @@ function detectKey(e) {
             document.getElementById('character').offsetTop = jump();
         } else if (e.keyCode == '37') {
             // left arrow
-            moveLeft();
+            moveLeft1();
+            moveLeft2();
         } else if (e.keyCode == '39') {
             // right arrow
             // document.getElementById('character').offsetLeft  = (posLeft+1)+"px";
@@ -59,10 +60,28 @@ function init(){
     character.style.left = "10vw";
 }
 
-function moveLeft() {
-    if (character.style.left > "10vw") {
-        character.style.left = parseInt(character.style.left) - 5 + "vw";
-    }
+// function moveLeft() {
+//     if (character.style.left > "10vw") {
+//         character.style.left = parseInt(character.style.left) - 5 + "vw";
+//     }
+// }
+
+function moveLeft1() {
+    var moveL = setInterval (function () {
+        character.style.left = parseInt(character.style.left) + 1.4 + "vw";
+    },10);
+    setTimeout(function (handle) {
+        clearInterval(moveL);
+    },200);
+}
+
+function moveLeft2() {
+    var moveL2 = setInterval(function () {
+        character.style.left = parseInt(character.style.left) - 1.2 + "vw";
+    },40);
+    setTimeout(function (handle) {
+        clearInterval(moveL2);
+    },200);
 }
 
 function moveRight() {

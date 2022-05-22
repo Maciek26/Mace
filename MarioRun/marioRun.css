@@ -124,7 +124,7 @@
     left: 70vw;
     animation-timing-function: unset;
     opacity: 1;
-    display: none;
+    display: flex;
 }
 
 .block2 {
