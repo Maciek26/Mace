@@ -24,7 +24,7 @@ document.write(`
                 <div class="dropdown">
                     <a href="../MarioRun/marioRun.html">Mario Run</a>
                     <a href="../FlappyBirds/flappyBirds.html">Flappy Birds</a>
-                    <a href="#">Link3</a>
+                    <a href="../labyrinth/labyrinth.html">Labyrinth</a>
                 </div>
             </div>
             <a href="../Feedback/feedback.html">Feedback</a>

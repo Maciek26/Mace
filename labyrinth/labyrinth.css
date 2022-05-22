@@ -1,0 +1,72 @@
+.body {
+    overflow: hidden;
+}
+
+.whole {
+    height: 100vw;
+    overflow: hidden;
+    background-color: #2a166b;
+    z-index: 1;
+}
+
+.startgame {
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    background-color: #1eff00;
+    margin-left: 48.5vw;
+    margin-top: 18.5vw;
+    display: flex;
+}
+
+.svg1 {
+    width: 30vw;
+    height: 30vw;
+    margin-left: 35vw;
+    margin-top: 5vw;
+
+}
+
+.stroke1 {
+    position: absolute;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 0%;
+    stroke-width: 1vw;
+    stroke: #ce1515;
+    fill: none;
+    display: none;
+    animation: stroke2 7s infinite;
+}
+
+@keyframes stroke2 {
+    0% {
+        stroke-dashoffset: 1vw;
+        stroke-dasharray: 0%;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    45% {
+        stroke-dashoffset: 10vw;
+        stroke-dasharray: 80%;
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        stroke-dashoffset: 1vw;
+        stroke-dasharray: 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes colorFade {
+    to {
+        background-color: rgba(24,229,189,0.74);
+    }
+}
