@@ -92,6 +92,7 @@
     stroke-dashoffset: -10vw;
     stroke-dasharray: 0%;
     animation: blink 5s;
+    display: none;
 }
 
 @keyframes blink {
@@ -155,6 +156,7 @@
     margin-left: 10vw;
     margin-top: -24vw;
     position: absolute;
+    display: none;
 }
 
 .aboutText2 {
@@ -169,15 +171,16 @@
     height: 35vw;
     position: absolute;
     margin-top: 5vw;
+    display: none;
 }
 
 .aboutText3 {
-    display: flex;
     font-size: 4vw;
     color: #fdfdfd;
     margin-left: 4vw;
     margin-top: 34vw;
     position: absolute;
+    display: none;
 }
 
 .aboutBorder {

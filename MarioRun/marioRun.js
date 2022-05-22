@@ -18,13 +18,6 @@ function jump (){
         character.classList.remove("animateJump");
     },500);
 }
-//
-// function left(){
-//     var posRight = document.getElementById('character').offsetLeft;
-//         console.log(character.offsetLeft)
-//         character.offsetLeft = (posRight-1)+"px";
-//         console.log(character.offsetLeft)
-//     }
 
 function restart(){
     window.location.reload(false);
@@ -50,26 +43,28 @@ function detectKey(e) {
             moveRight2();
         } else if (e.keyCode == "82") {
             window.location.reload(false);
+        } else if (e.keyCode == "67") {
+            menuVis();
         }
 }
-
-
-
 
 function init(){
     character.style.left = "10vw";
 }
 
-// function moveLeft() {
-//     if (character.style.left > "10vw") {
-//         character.style.left = parseInt(character.style.left) - 5 + "vw";
-//     }
-// }
+function menuVis() {
+    if (optionsMenu.style.display == "none") {
+        optionsMenu.style.display = "flex"
+    } else {
+        optionsMenu.style.display = "none"
+    }
+}
+
 
 function moveLeft1() {
     var moveL = setInterval (function () {
-        character.style.left = parseInt(character.style.left) + 1.4 + "vw";
-    },10);
+        character.style.left = parseInt(character.style.left) - 1.4 + "vw";
+    },20);
     setTimeout(function (handle) {
         clearInterval(moveL);
     },200);
@@ -77,8 +72,8 @@ function moveLeft1() {
 
 function moveLeft2() {
     var moveL2 = setInterval(function () {
-        character.style.left = parseInt(character.style.left) - 1.2 + "vw";
-    },40);
+        character.style.left = parseInt(character.style.left) + 1.2 + "vw";
+    },20);
     setTimeout(function (handle) {
         clearInterval(moveL2);
     },200);

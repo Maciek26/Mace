@@ -22,7 +22,7 @@ function checkboxes() {
 }
 
 function block1Collision() {
-    if (blockCollision.checked == false) {
+    if (blockCollision.checked == true) {
         block.style.animation = "none";
         block.style.display = "none";
         console.log("worked")
@@ -45,7 +45,7 @@ function collisionCheck() {
         block.style.display = "flex";
         character.style.display = "flex";
         pipe.style.display = "flex";
-        block2.style.animation = "block 2.5s infinite linear";
+        block2.style.animation = "block 6.5s infinite linear";
         block2.style.display = "flex";
     }
 }
@@ -59,7 +59,6 @@ function randomBlockSpeed() {
 if (randomSpeed == true){
     var randomizeSpeed = setInterval(function () {
         block.style.animationDuration = randomNumber2 + "s";
-        console.log(randomNumber2);
     },randomNumber2);
 }}
 
@@ -83,17 +82,14 @@ function characterCollision () {
     }, 6000)
 
 function b1Tele() {
-    console.log("no display");
     bomb.style.display = "none";
     bomb.style.left = "200vw";
 }
 
 function explosion() {
     bomb.style.backgroundColor = "orange";
-    console.log("orange");
     setTimeout(function red(){
         bomb.style.backgroundColor = "red";
-        console.log("red");
         setTimeout(function (){
             bombdead();
         },1000);
@@ -116,7 +112,6 @@ function bombdead() {
     console.log(rect1);
         if (rect1.x < rect2.x + rect2.width &&
             rect1.x + rect1.width > rect2.x) {
-            // console.log("it worked");
             gameMenu.style.display = "block";
             block.style.animation = "none";
             block.style.display = "none";

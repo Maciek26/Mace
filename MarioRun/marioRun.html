@@ -12,7 +12,7 @@
 
 <script src="../burgerMenu.js"></script>
 
-  <div class="game" onclick="jump()">
+  <div class="game" >
     <div class="gameMenu2">
       <div class="gameMenu" id="gameMenu">
         <a class="menuText" id="menuText">You lost</a>
@@ -30,12 +30,12 @@
     <div>
       <a class="highscore" id="highscore">Highscore: </a>
     </div>
-    <div class="optionsMenu" id="optionsMenu">
+    <div class="optionsMenu" id="optionsMenu" style="display: none">
       <div class="collisionBox">
         No Collision:<input type="checkbox" id="collisionBox" class="collisionBox" onclick="collisionCheck()">
       </div>
       <div class="blockCollison">
-        Rocket 1: <input type="checkbox" id="blockBox" class="blockCollision" onclick="block1Collision()">
+        No Rocket 1: <input type="checkbox" id="blockBox" class="blockCollision" onclick="block1Collision()">
       </div>
       <div class="blockSpeed">
         Random Block Speed: <input type="checkbox" id="blockSpeed" class="blockSpeed" onclick="randomBlockSpeed()">

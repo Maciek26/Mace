@@ -84,14 +84,13 @@
     display: flex;
     left: 67vw;
     position: absolute;
-    /*animation: block 8.8s infinite linear;*/
+    animation: block 8.8s infinite linear;
 
 }
 
 .character {
     width: 6.5vw;
     height: 7vw;
-    background-color: #070742;
     background-image: url("../images/b69040ba12c1b3a9d9d998e3e67154e9.gif");
     background-size: 17vw;
     background-repeat: no-repeat;
@@ -111,10 +110,9 @@
     transition: 1s;
 }
 
-.blockl {
+.block {
     width: 6vw;
     height: 5vw;
-    background-color: blue;
     background-image: url("../images/c9e981356fa8144.png");
     background-size: 10vw;
     background-repeat: no-repeat;
@@ -130,17 +128,16 @@
 .block2 {
     width: 6vw;
     height: 5vw;
-    background-color: green;
     background-image: url("../images/c9e981356fa8144.png");
     background-size: 10vw;
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    top: -7.5vw;
+    top: 37.5vw;
     left: 70vw;
-    animation: block 2.5s infinite linear;
     animation-delay: 5.5s;
     opacity: 0;
+    /*display: flex;*/
 }
 
 .bomb {
@@ -205,7 +202,6 @@
     width: 11vw;
     height: 35vw;
     background-color: #860000;
-    display: flex;
     /*align-items: center;*/
     margin-left: 72vw;
     margin-top: 0;
@@ -215,6 +211,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 1vw;
+    display: none;
 }
 
 .collisionBox {
