@@ -177,9 +177,10 @@
 	width: 100%;
 	height: 61vw;
 	background-image: url("../images/Rainbow-Six-Siege-Defenders.jpg");
-	background-size: 130vw;
+	background-size: 105vw;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-position-x: -2vw;
 	flex-direction: row;
 	list-style: none;
 	flex-wrap: wrap;
@@ -270,4 +271,13 @@
 	background: none;
 	border: none;
 	padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.container1 {
+		background-attachment: unset;
+	}
+	.container2 {
+		background-attachment: unset;
+	}
 }
