@@ -1,10 +1,11 @@
 .whole {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 500px) {
      .whole {
          width: 100vw;
+         overflow: hidden;
      }
 }
 
