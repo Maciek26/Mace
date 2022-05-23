@@ -5,3 +5,14 @@ html {
 .hi {
     font-size: 20vw;
 }
+
+.whole {
+    background-color: blue;
+    overflow: hidden;
+}
+
+.link {
+    height: 10vw;
+    width: 10vw;
+    background-color: aquamarine;
+}

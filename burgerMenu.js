@@ -16,7 +16,7 @@ document.write(`
                 <div class="dropdown">
                     <a href="../R6%20Randomizer/rainbow6Randomizer.html">R6 Randomizer</a>
                     <a href="../CoinFlip/coinFlip.html">Coin Flip</a>
-                    <a href="../LuckyWheel/luckyWheel.html">Lucky Wheel</a>
+                    <a href="../LuckyWheel/luckyWheel.html">Audio Book</a>
                 </div>
             </div>
             <div class="dropdown1">
