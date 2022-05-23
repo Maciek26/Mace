@@ -140,3 +140,33 @@
 
 
 }
+
+.menuLost {
+    width: 15vw;
+    height: 10vw;
+    font-size: 2vw;
+    background-color: #5151de;
+    margin-left: 22.5vw;
+    margin-top: 12.5vw;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+}
+
+.menuText {
+    margin-top: -4vw;
+    position: absolute;
+}
+
+.menuButton {
+    width: 5vw;
+    height: 3vw;
+    border-style: wave;
+    margin-top: 2.5vw;
+    align-items: center;
+    background-color: #070742;
+    color: #F2F2F2;
+    font-size: 0.8vw;
+    position: absolute;
+
+}
