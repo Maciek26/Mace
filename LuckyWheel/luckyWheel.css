@@ -7,13 +7,15 @@ html {
 }
 
 .whole {
-    height: 100%;
-    width: 100%;
+    position: absolute;
+    height: 100vw;
+    width: 100vw;
     background-color: blue;
     overflow: hidden;
 }
 
 .link {
+    position: absolute;
     height: 10vw;
     width: 10vw;
     background-color: aquamarine;

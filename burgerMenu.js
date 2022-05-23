@@ -44,7 +44,6 @@ const navSlide = () => {
 
     burgerMenu.addEventListener('click',() => {
         nav.classList.toggle('nav-active');
-
         navLinks.forEach((links, index) => {
             if(links.style.animation){
                 links.style.animation = ''
