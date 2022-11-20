@@ -22,6 +22,7 @@ document.write(`
             <div class="dropdown1">
                 <a class="dropdownButton1">Games</a>
                 <div class="dropdown">
+                    <a href="https://mace-center.me/LAP1/">LAP1</a>
                     <a href="../MarioRun/marioRun.html">Mario Run</a>
                     <a href="../FlappyBirds/flappyBirds.html">Flappy Birds</a>
                     <a href="../labyrinth/labyrinth.html">Labyrinth</a>
