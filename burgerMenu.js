@@ -10,6 +10,7 @@ document.write(`
             
         </div>
         <div class="nav-Links">
+         <a href="http://mace-center.me/LAP1/">LAP1</a>
             <a href="../MaceHome/index.html">Home</a>
             <div class="dropdown1">
                 <a class="dropdownButton">Randomizers</a>
