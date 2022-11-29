@@ -1,4 +1,8 @@
 document.write(`
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8737816349283892"
+     crossorigin="anonymous"></script>
+</head>
     <nav>
 <!--    <svg class="svg">-->
 <!--<path fill-rule="evenodd" clip-rule="evenodd" d="M189.94 0.364105L190.273 0.581136C212.719 15.2124 251.596 32.7804 295.233 37.9034C338.861 43.0253 387.21 35.7059 428.677 0.61831L429.323 1.3817C387.59 36.6941 338.939 44.0414 295.117 38.8966C251.518 33.7781 212.663 16.2933 190.059 1.63497C163.991 26.4186 90.2163 60.5458 0.724365 1.41717L1.27562 0.582835C90.6528 59.6356 164.13 25.1683 189.654 0.639496L189.94 0.364105Z" fill="black"/>-->
